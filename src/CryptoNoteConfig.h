@@ -164,7 +164,7 @@ const char* const SEED_NODES[] = {
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
    
-  {5000,  "b1598793be7edddf9885cfa94448d5e620f51e6709acb310cf7378648213a1f7"},
+ 
   {10000, "d75a9b3425c4cdc5c0a22c8b58cc198ed7cc01286b4ae881bce8900c6a9a89b4"},
   {25000, "e5d239870c0cda75a63c2699a05e31b3eac24d20e08102bb6727cac9b0af8b8a"},
   {35000, "a8f6ce17a4d5646caabf04b7bf19f0d4c32ad56d0864f17038e8d5318960c06e"},
