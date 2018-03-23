@@ -1,0 +1,149 @@
+2018-Mar-23 12:05:55.516214 INFO    [daemon] kmcoin v2.1.0.1243 ()
+2018-Mar-23 12:05:55.516587 INFO    [daemon] Module folder: ./kriptomarkad
+2018-Mar-23 12:05:55.522180 INFO    [RocksDBWrapper] Opening DB in /home/node/.kmcoin/DB
+2018-Mar-23 12:05:55.681404 INFO    [RocksDBWrapper] DB opened in /home/node/.kmcoin/DB
+2018-Mar-23 12:05:55.691239 INFO    [daemon] Initializing core...
+2018-Mar-23 12:05:55.715043 INFO    [daemon] Core initialized OK
+2018-Mar-23 12:05:55.715219 INFO    [daemon] Initializing p2p server...
+2018-Mar-23 12:05:55.717358 INFO    [node_server] Binding on 0.0.0.0:15505
+2018-Mar-23 12:05:55.717552 INFO    [node_server] Net service binded on 0.0.0.0:15505
+2018-Mar-23 12:05:55.717649 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Mar-23 12:05:59.723279 INFO    [node_server] No IGD was found.
+2018-Mar-23 12:05:59.725325 INFO    [daemon] P2p server initialized OK
+2018-Mar-23 12:05:59.725507 INFO    [daemon] Starting core rpc server on address 127.0.0.1:16606
+2018-Mar-23 12:05:59.725648 INFO    [daemon] Core rpc server started ok
+2018-Mar-23 12:05:59.725744 INFO    [daemon] Starting p2p net loop...
+2018-Mar-23 12:05:59.725819 INFO    [node_server] Starting node_server
+2018-Mar-23 12:06:00.405676 INFO    [protocol] [162.218.211.233:15505 OUT] Sync data returned unknown top block: 136395 -> 136447 [52 blocks (0 days) behind] 
+2018-Mar-23 12:06:00.405676 INFO    [protocol] SYNCHRONIZATION started
+2018-Mar-23 12:06:00.421057 INFO    [protocol] [185.52.2.184:15505 OUT] Sync data returned unknown top block: 136395 -> 136447 [52 blocks (0 days) behind] 
+2018-Mar-23 12:06:00.421057 INFO    [protocol] SYNCHRONIZATION started
+2018-Mar-23 12:06:03.599299 INFO    [Core] Block e1454d784470ea864ca3de34336a557126bdc51ba10fb585db782cca7a7aae63 added to main chain. Index: 136400
+2018-Mar-23 12:06:07.748632 INFO    [protocol] [81.4.103.152:48740 INC] Sync data returned unknown top block: 136406 -> 136447 [41 blocks (0 days) behind] 
+2018-Mar-23 12:06:07.748632 INFO    [protocol] SYNCHRONIZATION started
+2018-Mar-23 12:06:07.890404 INFO    [protocol] [47.184.179.46:15505 OUT] Sync data returned unknown top block: 136407 -> 136447 [40 blocks (0 days) behind] 
+2018-Mar-23 12:06:07.890404 INFO    [protocol] SYNCHRONIZATION started
+2018-Mar-23 12:06:10.662704 INFO    [protocol] [185.34.216.62:15505 OUT] Sync data returned unknown top block: 136425 -> 136447 [22 blocks (0 days) behind] 
+2018-Mar-23 12:06:10.662704 INFO    [protocol] SYNCHRONIZATION started
+2018-Mar-23 12:06:11.449117 INFO    [protocol] [65.157.51.26:52576 INC] Sync data returned unknown top block: 136429 -> 136447 [18 blocks (0 days) behind] 
+2018-Mar-23 12:06:11.449117 INFO    [protocol] SYNCHRONIZATION started
+2018-Mar-23 12:06:15.691167 INFO    [protocol] [185.52.2.184:15505 OUT] SYNCHRONIZED OK
+2018-Mar-23 12:06:15.691841 INFO    [protocol] 
+2018-Mar-23 12:06:15.691841 INFO    [protocol] **********************************************************************
+2018-Mar-23 12:06:15.691841 INFO    [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Mar-23 12:06:15.691841 INFO    [protocol] 
+2018-Mar-23 12:06:15.691841 INFO    [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Mar-23 12:06:15.691841 INFO    [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Mar-23 12:06:15.691841 INFO    [protocol] 
+2018-Mar-23 12:06:15.691841 INFO    [protocol] Use "help" command to see the list of available commands.
+2018-Mar-23 12:06:15.691841 INFO    [protocol] **********************************************************************
+2018-Mar-23 12:07:45.360210 WARNING [node_server] [5.64.245.246:57532 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-23 12:08:32.515317 WARNING [node_server] [5.64.245.246:57556 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-23 12:08:52.378243 WARNING [node_server] [171.239.133.204:54936 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-23 12:09:29.595676 WARNING [node_server] [5.64.245.246:57586 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-23 12:11:19.190053 DEBUG   [node_server] [47.184.179.46:15505 OUT] msg 1:1002
+2018-Mar-23 12:11:20.270441 DEBUG   [node_server] [94.130.161.243:54941 INC] msg 1:1002
+2018-Mar-23 12:11:23.643121 DEBUG   [node_server] [95.83.170.69:52891 INC] msg 1:1002
+2018-Mar-23 12:11:25.498301 DEBUG   [node_server] [88.135.228.157:15505 OUT] msg 1:1002
+2018-Mar-23 12:11:26.302529 DEBUG   [node_server] [104.223.43.151:15505 OUT] msg 1:1002
+2018-Mar-23 12:11:35.914164 INFO    [node_server] Stop signal sent
+2018-Mar-23 12:11:35.914421 INFO    [node_server] Stopping NodeServer and it's17 connections...
+2018-Mar-23 12:11:35.914597 DEBUG   [node_server] acceptLoop() is interrupted
+2018-Mar-23 12:11:35.914680 DEBUG   [node_server] acceptLoop finished
+2018-Mar-23 12:11:35.914763 DEBUG   [node_server] onIdle() is interrupted
+2018-Mar-23 12:11:35.914838 DEBUG   [node_server] onIdle finished
+2018-Mar-23 12:11:35.914917 DEBUG   [node_server] timedSyncLoop() is interrupted
+2018-Mar-23 12:11:35.915018 DEBUG   [node_server] timedSyncLoop finished
+2018-Mar-23 12:11:35.915107 DEBUG   [node_server] timeoutLoop() is interrupted
+2018-Mar-23 12:11:35.915416 DEBUG   [node_server] [162.218.211.233:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.915517 DEBUG   [node_server] [162.218.211.233:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.915621 DEBUG   [node_server] [185.52.2.184:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.915705 DEBUG   [node_server] [185.52.2.184:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.916049 DEBUG   [node_server] [81.4.103.152:48740 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.916159 DEBUG   [node_server] [81.4.103.152:48740 INC] Interrupt connection
+2018-Mar-23 12:11:35.916394 DEBUG   [node_server] [47.184.179.46:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.916482 DEBUG   [node_server] [47.184.179.46:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.916583 DEBUG   [node_server] [185.34.216.62:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.916666 DEBUG   [node_server] [185.34.216.62:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.916766 DEBUG   [node_server] [88.135.228.157:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.916848 DEBUG   [node_server] [88.135.228.157:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.916949 DEBUG   [node_server] [217.235.185.119:53190 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.917071 DEBUG   [node_server] [217.235.185.119:53190 INC] Interrupt connection
+2018-Mar-23 12:11:35.917176 DEBUG   [node_server] [81.4.103.152:50583 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.917267 DEBUG   [node_server] [81.4.103.152:50583 INC] Interrupt connection
+2018-Mar-23 12:11:35.917368 DEBUG   [node_server] [94.130.161.243:54941 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.917453 DEBUG   [node_server] [94.130.161.243:54941 INC] Interrupt connection
+2018-Mar-23 12:11:35.917554 DEBUG   [node_server] [47.95.116.161:63539 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.917636 DEBUG   [node_server] [47.95.116.161:63539 INC] Interrupt connection
+2018-Mar-23 12:11:35.917738 DEBUG   [node_server] [159.65.120.236:39895 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.917820 DEBUG   [node_server] [159.65.120.236:39895 INC] Interrupt connection
+2018-Mar-23 12:11:35.917921 DEBUG   [node_server] [78.28.250.103:39300 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.918038 DEBUG   [node_server] [78.28.250.103:39300 INC] Interrupt connection
+2018-Mar-23 12:11:35.918142 DEBUG   [node_server] [104.223.43.151:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.918230 DEBUG   [node_server] [104.223.43.151:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.918349 DEBUG   [node_server] [185.52.2.182:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.918434 DEBUG   [node_server] [185.52.2.182:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.918532 DEBUG   [node_server] [204.44.93.24:15505 OUT] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.918613 DEBUG   [node_server] [204.44.93.24:15505 OUT] Interrupt connection
+2018-Mar-23 12:11:35.918712 DEBUG   [node_server] [65.157.51.26:55991 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.918796 DEBUG   [node_server] [65.157.51.26:55991 INC] Interrupt connection
+2018-Mar-23 12:11:35.918894 DEBUG   [node_server] [95.83.170.69:52891 INC] connectionHandler() inner context is interrupted
+2018-Mar-23 12:11:35.918986 DEBUG   [node_server] [95.83.170.69:52891 INC] Interrupt connection
+2018-Mar-23 12:11:35.919078 DEBUG   [node_server] [162.218.211.233:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.919159 DEBUG   [node_server] [185.52.2.184:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.919248 DEBUG   [node_server] [81.4.103.152:48740 INC] writeHandler finished
+2018-Mar-23 12:11:35.919330 DEBUG   [node_server] [47.184.179.46:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.919414 DEBUG   [node_server] [185.34.216.62:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.919494 DEBUG   [node_server] [88.135.228.157:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.919573 DEBUG   [node_server] [217.235.185.119:53190 INC] writeHandler finished
+2018-Mar-23 12:11:35.919653 DEBUG   [node_server] [81.4.103.152:50583 INC] writeHandler finished
+2018-Mar-23 12:11:35.919731 DEBUG   [node_server] [94.130.161.243:54941 INC] writeHandler finished
+2018-Mar-23 12:11:35.919810 DEBUG   [node_server] [47.95.116.161:63539 INC] writeHandler finished
+2018-Mar-23 12:11:35.919888 DEBUG   [node_server] [159.65.120.236:39895 INC] writeHandler finished
+2018-Mar-23 12:11:35.919968 DEBUG   [node_server] [78.28.250.103:39300 INC] writeHandler finished
+2018-Mar-23 12:11:35.920055 DEBUG   [node_server] [104.223.43.151:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.920135 DEBUG   [node_server] [185.52.2.182:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.920214 DEBUG   [node_server] [204.44.93.24:15505 OUT] writeHandler finished
+2018-Mar-23 12:11:35.920304 DEBUG   [node_server] [65.157.51.26:55991 INC] writeHandler finished
+2018-Mar-23 12:11:35.920384 DEBUG   [node_server] [95.83.170.69:52891 INC] writeHandler finished
+2018-Mar-23 12:11:35.923473 INFO    [node_server] NodeServer loop stopped
+2018-Mar-23 12:11:35.926504 INFO    [daemon] p2p net loop stopped
+2018-Mar-23 12:11:35.926587 INFO    [daemon] Stopping core rpc server...
+2018-Mar-23 12:11:35.926714 INFO    [daemon] Deinitializing p2p...
+2018-Mar-23 12:11:35.934864 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2018-Mar-23 12:11:35.935837 INFO    [RocksDBWrapper] Closing DB.
+2018-Mar-23 12:11:35.997423 INFO    [daemon] Node stopped.
+2018-Mar-23 12:11:48.682801 INFO    [daemon] kmcoin v2.1.0.1243 ()
+2018-Mar-23 12:11:48.683679 INFO    [daemon] Module folder: ./kriptomarkad
+2018-Mar-23 12:11:48.684074 INFO    [RocksDBWrapper] Opening DB in /home/node/.kmcoin/DB
+2018-Mar-23 12:11:48.702785 INFO    [RocksDBWrapper] DB opened in /home/node/.kmcoin/DB
+2018-Mar-23 12:11:48.715372 INFO    [daemon] Initializing core...
+2018-Mar-23 12:11:48.735488 INFO    [daemon] Core initialized OK
+2018-Mar-23 12:11:48.735682 INFO    [daemon] Initializing p2p server...
+2018-Mar-23 12:11:48.737957 INFO    [node_server] Binding on 0.0.0.0:15505
+2018-Mar-23 12:11:48.738329 INFO    [node_server] Net service binded on 0.0.0.0:15505
+2018-Mar-23 12:11:48.738740 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Mar-23 12:11:52.742334 INFO    [node_server] No IGD was found.
+2018-Mar-23 12:11:52.742562 INFO    [daemon] P2p server initialized OK
+2018-Mar-23 12:11:52.742834 INFO    [daemon] Starting core rpc server on address 127.0.0.1:16606
+2018-Mar-23 12:11:52.743080 INFO    [daemon] Core rpc server started ok
+2018-Mar-23 12:11:52.743249 INFO    [daemon] Starting p2p net loop...
+2018-Mar-23 12:11:52.743402 INFO    [node_server] Starting node_server
+2018-Mar-23 12:11:52.746390 INFO    [protocol] 
+2018-Mar-23 12:11:52.746390 INFO    [protocol] **********************************************************************
+2018-Mar-23 12:11:52.746390 INFO    [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Mar-23 12:11:52.746390 INFO    [protocol] 
+2018-Mar-23 12:11:52.746390 INFO    [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Mar-23 12:11:52.746390 INFO    [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Mar-23 12:11:52.746390 INFO    [protocol] 
+2018-Mar-23 12:11:52.746390 INFO    [protocol] Use "help" command to see the list of available commands.
+2018-Mar-23 12:11:52.746390 INFO    [protocol] **********************************************************************
+2018-Mar-23 12:12:14.829370 WARNING [node_server] [171.239.133.204:55006 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-23 12:12:25.266312 INFO    [node_server] Stop signal sent
+2018-Mar-23 12:12:25.266557 INFO    [node_server] Stopping NodeServer and it's8 connections...
+2018-Mar-23 12:12:26.268813 INFO    [node_server] NodeServer loop stopped
+2018-Mar-23 12:12:26.268986 INFO    [daemon] p2p net loop stopped
+2018-Mar-23 12:12:26.269080 INFO    [daemon] Stopping core rpc server...
+2018-Mar-23 12:12:26.269222 INFO    [daemon] Deinitializing p2p...
+2018-Mar-23 12:12:26.274893 INFO    [RocksDBWrapper] Closing DB.
+2018-Mar-23 12:12:26.284081 INFO    [daemon] Node stopped.

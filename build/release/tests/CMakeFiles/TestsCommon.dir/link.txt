@@ -1,0 +1,2 @@
+/usr/bin/ar cr libTestsCommon.a  CMakeFiles/TestsCommon.dir/Common/VectorMainChainStorage.cpp.o
+/usr/bin/ranlib libTestsCommon.a
